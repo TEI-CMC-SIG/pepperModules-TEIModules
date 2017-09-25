@@ -5,7 +5,7 @@ This is a development fork to import data coming from the TEI-CMC-SIG format.
 
 ## Notes
 
-Currently, until korpling/pepperModules-TEIModules#24 has been fixed, make sure to change `conf/pepper.properties` like this:
+Currently, until https://github.com/korpling/pepperModules-TEIModules/issues/24 has been fixed, make sure to change `conf/pepper.properties` like this:
 
 ```
 ##########
