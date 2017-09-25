@@ -1,3 +1,24 @@
+TEI-CMC-SIG
+===========
+
+This is a development fork to import data coming from the TEI-CMC-SIG format.
+
+## Notes
+
+Currently, until #24 has been fixed, make sure to change `conf/pepper.properties` like this:
+
+```
+##########
+# The maximal number of currently processed SDocument-objects
+##########
+pepper.maxAmountOfProcessedSDocuments=1
+```
+
+- - -
+
+Original
+========
+
 ![SaltNPepper project](./md/img/SaltNPepper_logo2010.png)
 # pepperModules-TEIModules
 This project provides an importer to import data coming from the [TEI P5 format](http://www.tei-c.org/Guidelines/P5/) for the linguistic converter framework Pepper (see https://github.com/korpling/pepper). A detailed description of that mapping can be found in section [TEIImporter](#details).
